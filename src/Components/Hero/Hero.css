@@ -1,0 +1,16 @@
+@media (min-width: 767px) {
+    .motion-img {
+        border-radius: 10%;
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .motion-img {
+        border-radius: 50%;
+        margin-bottom: 20px;
+        margin-left:15px;
+        margin-right: 15px;
+        padding: 15px;
+    }
+}

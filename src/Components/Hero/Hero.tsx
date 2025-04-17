@@ -80,10 +80,7 @@ function Hero() {
               </button>
 
               <a
-                href={
-                  import.meta.env.VITE_RESUME ??
-                  "https://drive.google.com/file/d/1Xy4Zh6mPxthH-L8pbldjK5QXnRyfVLMj/view?usp=sharing"
-                }
+                href={import.meta.env.VITE_RESUME}
                 target="_blank"
                 rel="noopener noreferrer"
               >
